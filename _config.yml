@@ -1,5 +1,6 @@
 title: "DX Tech Papers"
 remote_theme: "pmarsceill/just-the-docs"
+repository: "francescobianco/dx-tech-papers"
 
 aux_links:
   "<img src='/assets/img/github.svg'/>":
