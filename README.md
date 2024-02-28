@@ -28,20 +28,14 @@ For every PR, we automatically create a preview of the rendered DX Tech Papers u
 
 ### Render DX Tech Papers Locally
 
-See the [build documentation](./docs/build.rst) for full instructions on how to render DX Tech Papers locally. In summary, run the following in a fresh, activated virtual environment:
+To render the DX Tech Papers locally, you need Docker 20 or later. Then, run the following command:
 
 ```bash
-# Install requirements
-python -m pip install -U -r requirements.txt
-
-# Build the DX Tech Papers
-make html
-
-# Or, if you don't have 'make':
-python build.py
+# Build and run the Docker container
+make serve
 ```
 
-The output HTML is found under the build directory.
+The output HTML is found under the `_site` directory.
 
 ### Check and Lint DX Tech Papers
 
