@@ -5,7 +5,7 @@ remote_theme: "pmarsceill/just-the-docs"
 color_scheme: dark
 
 aux_links:
-  "<img src='/assets/img/github.svg'/>":
+  "<img src=\"https://unpkg.com/simple-icons@v11/icons/github.svg\"/>":
     - "https://github.com/devpasta/papers"
 
 exclude:
