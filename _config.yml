@@ -5,12 +5,12 @@ remote_theme: "pmarsceill/just-the-docs"
 color_scheme: dark
 
 aux_links:
-  "<img src=\"https://unpkg.com/simple-icons@v11/icons/github.svg\"/>":
+  "<img src='https://unpkg.com/simple-icons@v11/icons/github.svg'/>":
     - "https://github.com/devpasta/papers"
 
 footer_content: >
   © 2021 DX Tech Papers
-  <style>.field-list th { display: none; }</style>
+  <style>.field-list th, footer.site-footer { display: none; }</style>
 
 exclude:
   - .bundle/
