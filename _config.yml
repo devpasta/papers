@@ -7,3 +7,11 @@ color_scheme: dark
 aux_links:
   "<img src='/assets/img/github.svg'/>":
     - "https://github.com/devpasta/papers"
+
+exclude:
+  - .bundle/
+  - _config.yml
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - Makefile
