@@ -1,7 +1,7 @@
 # Contributing Guidelines
 
 To learn more about the purpose of PEPs and how to go about writing one,
-please start reading at [DX Tech Paper 1](https://devpasta.github.io/dx-0001/).
+please start reading at [DX Tech Paper 1](https://devpasta.github.io/dx-001/).
 Also, make sure to check the [README](./README.md) for information on
 how to render the DX Tech papers in this repository. Thanks again for your
 contributions, and we look forward to reviewing them!

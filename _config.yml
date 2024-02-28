@@ -7,6 +7,8 @@ color_scheme: dark
 aux_links:
   "<img src='https://cdn.simpleicons.org/github/white' width=24/>":
     - "https://github.com/devpasta/papers"
+  "<img src='https://cdn.simpleicons.org/discord/white' width=24/>":
+    - "https://discord.com/invite/SVx7JHjAcY"
 
 footer_content: >
   © 2021 DX Tech Papers

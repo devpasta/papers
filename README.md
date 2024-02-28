@@ -3,8 +3,8 @@
 [![DX Tech Papers Syntax Status](https://github.com/devpasta/papers/actions/workflows/syntax.yml/badge.svg)](https://github.com/devpasta/papers/actions)
 
 The DX Tech Papers in this repository are automatically published on the web at [https://devpasta.github.io/papates/](https://devpasta.github.io/papates/). 
-To learn more about the purpose of DX Tech Papers and how to write one, please start reading at [DX Tech Paper 1](https://devpasta.github.io/papers/dx-0001/). 
-Note that the DX Tech Paper Index ([DX Tech Paper 0](https://devpasta.github.io/papers/dx-0000/)) is automatically generated based on the metadata headers in other DX Tech Papers.
+To learn more about the purpose of DX Tech Papers and how to write one, please start reading at [DX Tech Paper 1](https://devpasta.github.io/papers/dx-001/). 
+Note that the DX Tech Paper Index ([DX Tech Paper 0](https://devpasta.github.io/papers/dx-000/)) is automatically generated based on the metadata headers in other DX Tech Papers.
 
 ## Canonical Links
 
