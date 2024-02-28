@@ -22,13 +22,12 @@ documents rather than living specifications or documentation. Major
 changes to their core content usually require a new PEP, while smaller
 modifications may or may not be appropriate, depending on the PEP\'s
 status. 
-See [PEP Maintenance](https://peps.python.org/pep-0001/#pep-maintenance) and
-[Changing Existing
-PEPs](https://peps.python.org/pep-0001/#changing-existing-peps) in PEP 1
+See [Maintenance](https://peps.python.org/dx-001/#maintenance) and
+[Changing Existing Paper](https://peps.python.org/dx-001/#changing-existing-paper) in DX-001
 for more.
 
 Copyediting and proofreading Draft and Active PEPs is welcome (subject
-to review by the PEP author), and can be done via pull request to this
+to review by the paper author), and can be done via pull request to this
 repo. Substantive content changes should first be proposed on PEP
 discussion threads. We do advise against PRs that simply mass-correct
 minor typos on older PEPs which don\'t significantly impair meaning and
@@ -38,13 +37,13 @@ If you\'re still unsure, we encourage you to reach out first before
 opening a PR here. For example, you could contact the PEP author(s),
 propose your idea in a discussion venue appropriate to the PEP (such as
 [Typing Discourse](https://discuss.python.org/c/typing/) for static
-typing, or [Packaging
-Discourse](https://discuss.python.org/c/packaging/) for packaging), or
+typing, 
+or [Packaging Discourse](https://discuss.python.org/c/packaging/) for packaging), or
 [open an issue](https://github.com/python/peps/issues).
 
 ## Opening a pull request
 
-The PEPs repository defines a set of pull request templates, which
+The DX Tech Papers\' repository defines a set of pull request templates, which
 should be used when opening a PR.
 
 If you use Git from the command line, you may be accustomed to creating
@@ -58,7 +57,7 @@ wish to use, and then give you the option of continuing editing in your
 browser.
 
 Alternatively, after pushing your branch, you can visit
-<https://github.com/python/peps>, and follow the link in the
+<https://github.com/devpasta/papers>, and follow the link in the
 notification about recent changes to your branch to create a new PR. The
 in-browser interface will allow you to select a PR template for your new
 PR.
@@ -85,8 +84,8 @@ for more information.
 
 ## Code of Conduct
 
-All interactions for this project are covered by the [PSF Code of
-Conduct](https://www.python.org/psf/codeofconduct/). Everyone is
+All interactions for this project are covered by the [Contributor Covenant Code of
+Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/). Everyone is
 expected to be open, considerate, and respectful of others, no matter
 their position within the project.
 
@@ -140,7 +139,7 @@ Then, whenever you `git commit`, pre-commit will run and report any
 issues it finds or changes it makes, and abort the commit to allow you
 to check, and if necessary correct them before committing again.
 
-## Check and fix PEP spelling
+## Check and fix papers spelling
 
 To check for common spelling mistakes in your PEP and automatically
 suggest corrections, you can run the codespell tool through pre-commit
@@ -155,11 +154,11 @@ the previous section, you can run it against only the files you\'ve
 modified and not yet committed with
 
 ``` bash
-pre-commit run --hook-stage manual codespell
+make pre-commit run --hook-stage manual codespell
 ```
 
 or against all files with
 
 ``` bash
-pre-commit run --all-files --hook-stage manual codespell
+make pre-commit run --all-files --hook-stage manual codespell
 ```

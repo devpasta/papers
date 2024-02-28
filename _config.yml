@@ -5,7 +5,7 @@ remote_theme: "pmarsceill/just-the-docs"
 color_scheme: dark
 
 aux_links:
-  "<img src='https://unpkg.com/simple-icons@v11/icons/github.svg'/>":
+  "<img src='https://unpkg.com/simple-icons@v11/icons/github.svg' width=32/>":
     - "https://github.com/devpasta/papers"
 
 footer_content: >
